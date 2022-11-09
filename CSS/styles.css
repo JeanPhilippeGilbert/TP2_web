@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+.image {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.images {
+    width: max-content;
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 500px;
+    background-color: white;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.layout .selected {
+    background-color: lightgray;
+}
+
+.layout :hover {
+    color: white;
+    background-color: black;
+}
+
+.layout :active {
+    background-color: orange;
+}
+
+.layout {
+    font-family: "Oswald";
+    font-size: large;
+    text-align: center;
+}
+
+.layout a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    font-family: "Audiowide";
+    font-size: x-large;
+}
+
+.définition{
+    font-size: larger;
+}
+.video{
+    width: 900px;
+}
+.portrait{
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left: 55%;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.imageportrait{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-position: bottom;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid lightgray;
+}
+.ecole{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 35%;
+    margin-right: 65%;
+}
